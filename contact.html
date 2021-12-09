@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Creating Navbar</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="Contact.js"></script>
+    </head>
+    
+    <body>
+      <!--Navbar-->
+      <nav>
+         <div class="left-side">
+           <img src="assets/logo.png">
+             <ul>
+                <li>
+                   <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="blog-detail.html/blog.html">Blog</a>
+                </li>
+              </ul>
+          </div>
+          <div class="right-side">
+             <a href="contact-me.html">Contact Me</a>
+             </div>
+        </nav>
+        <!--End-Navbar-->
+        <center>
+        <div class="contact-form" style="margin-top: 93px; width: 300px">
+          <form>
+              <div style="margin-bottom: 15px; text-align: left">
+                  <label for="name">Name</label>
+                  <input id="name"
+                  style="width: 100%; padding: 10px; margin-top: 7px; border-radius: 5px; background-color: rgb(231, 231, 231); border-color: rgb(231, 231, 231);box-shadow: 10px 10px 8px #888888;">
+                </div>
+                <div style="margin-bottom: 15px; text-align: left">
+                    <label for="email">Email</label>
+                    <input id="email"
+                           style="width: 100%; padding:  10px; margin-top: 7px; border-radius: 5px; background-color: rgb(231, 231, 231); border-color: rgb(231, 231, 231); box-shadow: 10px 10px 8px #888888;">
+                </div>
+                <div style="margin-bottom: 15px; text-align: left">
+                    <label for="phone number">Phone Number</label>
+                    <input id="phone number"
+                           style="width: 100%; padding: 10px; margin-top: 7px; border-radius: 5px; background-color: rgb(231, 231, 231); border-color: rgb(231, 231, 231); box-shadow: 10px 10px 8px #888888;">
+                </div>
+                <div style="margin-bottom: 15px; text-align: left">
+                    <label>Subject</label>
+                        <select id ="Subject" style="width: 100%; padding: 10px; margin-top: 7px; border-radius: 5px; background-color: rgb(231, 231, 231); border-color: rgb(231, 231, 231);box-shadow: 10px 10px 8px #888888;">
+                            <option>Contact admin</option>
+                            <option>Contact Developer</option>
+                            <option>Report</option>
+                        </select>
+                </div>
+                <div style="margin-bottom: 15px; text-align: left">
+                    <label>Your Massage</label>
+                    <textarea id="Massage"style="width: 100%; padding: 10px; margin-top: 7px; border-radius: 5px; background-color: rgb(231, 231, 231); border-color: rgb(231, 231, 231); box-shadow: 10px 10px 8px #888888;"></textarea>
+                </div>
+                <div style="margin-bottom: 15px; text-align: left">
+                    <button type ="button" style="border-radius: 5px; background-color: rgb(248, 50, 0); border-color: rgb(209, 60, 14);box-shadow: 10px 10px 8px #888888;" onclick="submitForm()">Submit</button>
+                </div>
+            </form>
+            </div>
+            </center>
+        <!--contact-form-->
+
+    </body>
+</html>
